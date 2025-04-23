@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Talabat.Repository\Talabat.Repository.csproj" />
+    <ProjectReference Include="..\Talabat.Service\Talabat.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\products\1.png" />
+    <None Include="wwwroot\images\products\10.png" />
+    <None Include="wwwroot\images\products\11.png" />
+    <None Include="wwwroot\images\products\12.png" />
+    <None Include="wwwroot\images\products\13.png" />
+    <None Include="wwwroot\images\products\14.png" />
+    <None Include="wwwroot\images\products\15.png" />
+    <None Include="wwwroot\images\products\16.png" />
+    <None Include="wwwroot\images\products\17.png" />
+    <None Include="wwwroot\images\products\18.png" />
+    <None Include="wwwroot\images\products\2.png" />
+    <None Include="wwwroot\images\products\3.png" />
+    <None Include="wwwroot\images\products\4.png" />
+    <None Include="wwwroot\images\products\5.png" />
+    <None Include="wwwroot\images\products\6.png" />
+    <None Include="wwwroot\images\products\7.png" />
+    <None Include="wwwroot\images\products\8.png" />
+    <None Include="wwwroot\images\products\9.png" />
+  </ItemGroup>
+
+</Project>
